@@ -80,3 +80,12 @@ if [int(dgt) for dgt in scipy.__version__.split('.')[:2]] < [0, 4]:
 # ================================= AFPkb® ===============================
 # A:5 - AFPkb® Information.
 __version__ 	= '1.0.0'
+
+with open('afpkb/__init__.py') as inp:
+    for line in inp:
+        if line.startswith('__version__'):
+            exec(line.strip())
+            break
+
+with open('docs/README.rst') as inp:
+    long_description = inp.read()
