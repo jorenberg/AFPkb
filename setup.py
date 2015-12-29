@@ -76,3 +76,7 @@ if [int(dgt) for dgt in scipy.__version__.split('.')[:2]] < [0, 4]:
     sys.stderr.write('AFPkb®: scipy v0.14 or later is required, you can find it at: '
                      'http://www.scipy.org/\n')
     sys.exit()
+
+# ================================= AFPkb® ===============================
+# A:5 - AFPkb® Information.
+__version__ 	= '1.0.0'
