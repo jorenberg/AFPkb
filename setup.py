@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# -*- coding: utf-8 -*-
 
 __company__ 	= 'Sequømics Corporation'
 __homepage__ 	= 'http://sequomics.com/'
