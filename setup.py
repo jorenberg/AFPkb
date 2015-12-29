@@ -63,3 +63,16 @@ if [int(dgt) for dgt in numpy.__version__.split('.')[:2]] < [1, 4]:
 	sys.stderr.write('AFPkb®: numpy v1.4 or later is required, you can find it at: '
                      'http://numpy.scipy.org/\n')
 	sys.exit()
+
+# A:4 - SciPy Support Information.
+try:
+    import scipy
+except ImportError:
+    sys.stderr.write('AFPkb®: scipy is not installed, you can find it at: '
+                     'http://www.scipy.org/\n')
+    sys.exit()
+
+if [int(dgt) for dgt in scipy.__version__.split('.')[:2]] < [0, 4]:
+    sys.stderr.write('AFPkb®: scipy v0.14 or later is required, you can find it at: '
+                     'http://www.scipy.org/\n')
+    sys.exit()
