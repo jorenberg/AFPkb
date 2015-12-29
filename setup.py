@@ -34,3 +34,4 @@ import os
 import sys
 import platform
 import errno
+from os import sep as dirsep
