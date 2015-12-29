@@ -35,3 +35,4 @@ import sys
 import platform
 import errno
 from os import sep as dirsep
+from os.path import isfile, join
