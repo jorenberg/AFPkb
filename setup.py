@@ -32,3 +32,4 @@ __license__     = 'Apache License'
 # ================================= AFPkb® ===============================
 import os
 import sys
+import platform
