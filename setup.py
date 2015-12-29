@@ -10,3 +10,4 @@ __authors__ 	= [
     '"Aiswarya Thomas" <aiswarya.sequomics@gmail.com>',
     '"Sequømics Corporation" <admin@sequomics.com>'
     ]
+__license__     = 'Apache License'
